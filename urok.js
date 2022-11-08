@@ -38,11 +38,36 @@ x(5400,0.10);
 
 
 
-function f (h,g){
-let h = lorem
-let g = 6
-if ( h < length){
-    console.log(`ошибка,слишком маленький текст`)
+function f (){
+  let a = length ('lorem ipsum');
+  let b = 15 ;
+  
+  if ( a===b){
+    console.log('ошибка, слишком маленкий текст');
+  }
+  else {
+    return b <= length 
+  }
+  
+  f ( `lorem ipsum`,4);
+
+
+
 }
-else
-}
+
+
+                // 5 задания 
+
+
+
+                let price = 120;
+
+                function test() {
+                   let price = 50;
+                   
+                }
+                test();
+                console.log(price);
+                
+/*      в консоль выведится  120 так как  'let price = 120' находится в глобальной облости..  Если бы мы вызволи консоль внутри функции 
+то мы  бы получили  50 таак как консоль находится в сомом функции..*/
